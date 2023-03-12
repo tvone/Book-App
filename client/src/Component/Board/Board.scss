@@ -1,0 +1,24 @@
+.manager {
+  width: 50%;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0 10px;
+}
+.list {
+  width: 100%;
+  background: wheat;
+  table {
+    width: 100%;
+    tr {
+      padding: 10px 20px;
+    }
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+}
